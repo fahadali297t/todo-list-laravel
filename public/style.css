@@ -1,0 +1,91 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap");
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Inter", sans-serif;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+a {
+    color: #f2f2f2;
+}
+a {
+    text-decoration: none;
+}
+
+body {
+    background-color: #1e1e1e;
+}
+
+.primary {
+    color: #4ea8de;
+}
+
+.secondary {
+    color: #5e60ce;
+}
+
+.inputFields {
+    height: 50px;
+    min-width: 800px;
+    background-color: #1e1e1e;
+    border: 2px solid #4ea8de;
+    padding: 10px 20px;
+    border-radius: 10px;
+    color: #f2f2f2;
+}
+.inputFields::placeholder {
+    color: rgba(255, 255, 255, 0.4);
+}
+
+.inputFields:active {
+    border: 2px solid #4ea8de;
+}
+.hr {
+    border: 1px solid #f2f2f2;
+}
+
+.rounded-box {
+    background-color: #333333;
+    border-radius: 50%;
+    display: inline-block;
+    width: 30px;
+    height: 30px;
+    color: #f2f2f2;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.btn-custom {
+    color: #f2f2f2;
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+    transition: all ease 0.4s;
+}
+
+.btn-custom:hover {
+    color: rgba(255, 255, 255, 0.8);
+}
+
+.task {
+    text-decoration: none;
+    background-color: #333333;
+    border-radius: 10px;
+    border: 1px solid rgba(255, 255, 255, 0.4);
+    padding: 20px 30px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+}

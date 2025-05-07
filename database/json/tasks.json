@@ -1,0 +1,102 @@
+[
+    {
+        "title": "Fix bug in user profile",
+        "description": "Fix bug in user profile for the web application project.",
+        "long_description": "Optimize the performance of the module by reducing memory and processing overhead."
+    },
+    {
+        "title": "Create changelog page",
+        "description": "Create changelog page for the web application project.",
+        "long_description": "Provide regular progress updates to stakeholders and gather feedback on each iteration."
+    },
+    {
+        "title": "Optimize database queries",
+        "description": "Optimize database queries for the web application project.",
+        "long_description": null
+    },
+    {
+        "title": "Backup old data archives",
+        "description": "Backup old data archives for the web application project.",
+        "long_description": "Document every step clearly for future developers and include examples where necessary."
+    },
+    {
+        "title": "Integrate chatbot assistant",
+        "description": "Integrate chatbot assistant for the web application project.",
+        "long_description": "Run extensive tests to ensure that new changes do not introduce any regressions."
+    },
+    {
+        "title": "Create style guide",
+        "description": "Create style guide for the web application project.",
+        "long_description": null
+    },
+    {
+        "title": "Update dependencies",
+        "description": "Update dependencies for the web application project.",
+        "long_description": "Refactor and clean existing code to improve maintainability and readability."
+    },
+    {
+        "title": "Fix bug in user profile",
+        "description": "Fix bug in user profile for the web application project.",
+        "long_description": "Coordinate with the team to gather requirements and finalize the development plan."
+    },
+    {
+        "title": "Add password reset feature",
+        "description": "Add password reset feature for the web application project.",
+        "long_description": "Ensure accessibility compliance by testing with multiple assistive technologies."
+    },
+    {
+        "title": "Refactor middleware logic",
+        "description": "Refactor middleware logic for the web application project.",
+        "long_description": "Prepare a comprehensive report including data visualizations and actionable recommendations."
+    },
+    {
+        "title": "Add real-time notifications",
+        "description": "Add real-time notifications for the web application project.",
+        "long_description": null
+    },
+    {
+        "title": "Test multi-language support",
+        "description": "Test multi-language support for the web application project.",
+        "long_description": "Provide regular progress updates to stakeholders and gather feedback on each iteration."
+    },
+    {
+        "title": "Review UI/UX feedback",
+        "description": "Review UI/UX feedback for the web application project.",
+        "long_description": null
+    },
+    {
+        "title": "Create FAQ page",
+        "description": "Create FAQ page for the web application project.",
+        "long_description": "Document every step clearly for future developers and include examples where necessary."
+    },
+    {
+        "title": "Implement OAuth login",
+        "description": "Implement OAuth login for the web application project.",
+        "long_description": "Run extensive tests to ensure that new changes do not introduce any regressions."
+    },
+    {
+        "title": "Integrate Slack notifications",
+        "description": "Integrate Slack notifications for the web application project.",
+        "long_description": "Refactor and clean existing code to improve maintainability and readability."
+    },
+    {
+        "title": "Test accessibility with screen readers",
+        "description": "Test accessibility with screen readers for the web application project.",
+        "long_description": "Optimize the performance of the module by reducing memory and processing overhead."
+    },
+    {
+        "title": "Write e2e tests",
+        "description": "Write e2e tests for the web application project.",
+        "long_description": "Ensure accessibility compliance by testing with multiple assistive technologies."
+    },
+    {
+        "title": "Create onboarding emails",
+        "description": "Create onboarding emails for the web application project.",
+        "long_description": "Provide regular progress updates to stakeholders and gather feedback on each iteration."
+    },
+    {
+        "title": "Fix form validation errors",
+        "description": "Fix form validation errors for the web application project.",
+        "long_description": null
+    }
+]
