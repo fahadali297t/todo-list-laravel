@@ -9,20 +9,7 @@
         </form>
     </div> --}}
 
-    <div class="d-flex justify-between max-w-250 m-auto align-middle mt-2">
-        <h6 class="primary flex justify-center align-items-center gap-2">
-            Tasks Created
-            <span class="rounded-box">
-                {{ $count }}
-            </span>
-        </h6>
-        <h6 class="secondary flex justify-center align-items-center gap-2">
-            Tasks Completed
-            <span class="rounded-box">
-                {{ $completed_count }}
-            </span>
-        </h6>
-    </div>
+
     <hr class="hr mt-3 max-w-250 m-auto">
 
     <div class="mt-4 m-auto max-w-250">

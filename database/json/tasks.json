@@ -1,102 +1,52 @@
 [
     {
-        "title": "Fix bug in user profile",
-        "description": "Fix bug in user profile for the web application project.",
-        "long_description": "Optimize the performance of the module by reducing memory and processing overhead."
+        "title": "Codebase Cleanup and Documentation Update",
+        "description": "Review the codebase, clean outdated functions, and update documentation accordingly.",
+        "long_description": "This task involves reviewing the entire codebase to identify areas where improvements can be made.\nWe need to ensure that all outdated functions are either updated or removed to improve maintainability.\nAdditionally, redundant files should be deleted after careful validation.\nThe documentation must be updated alongside these changes to reflect the latest code structure.\nFinally, notify the QA team to perform regression testing after the cleanup is complete."
     },
     {
-        "title": "Create changelog page",
-        "description": "Create changelog page for the web application project.",
-        "long_description": "Provide regular progress updates to stakeholders and gather feedback on each iteration."
+        "title": "Third-Party API Integration",
+        "description": "Integrate external APIs with thorough documentation and performance safeguards.",
+        "long_description": "The new feature requires integration with third-party APIs, and each endpoint must be documented clearly.\nBefore integration, evaluate the API limits and error handling mechanisms provided by the service.\nDevelopers should ensure that the integration does not degrade app performance under heavy traffic.\nImplement retry logic for critical requests, and create a fallback mechanism in case of API downtime.\nDetailed logs must be maintained for all API calls, including timestamps and status responses."
     },
     {
-        "title": "Optimize database queries",
-        "description": "Optimize database queries for the web application project.",
-        "long_description": null
+        "title": "Full Security Audit",
+        "description": "Perform a system-wide security audit covering all authentication and data handling processes.",
+        "long_description": "A complete security audit is required before the next release cycle.\nStart by checking user authentication mechanisms for vulnerabilities.\nReview password storage methods and update encryption algorithms if needed.\nScan all file uploads for potential threats and restrict file types appropriately.\nPrepare a final audit report with identified issues, severity levels, and recommended fixes."
     },
     {
-        "title": "Backup old data archives",
-        "description": "Backup old data archives for the web application project.",
-        "long_description": "Document every step clearly for future developers and include examples where necessary."
+        "title": "Onboarding Experience Redesign",
+        "description": "Redesign the user onboarding experience with tutorials, messages, and responsive design.",
+        "long_description": "Design the onboarding flow to provide a seamless experience for first-time users.\nInclude a welcome message, an interactive tutorial for essential features, and personalized tips.\nEnsure that the tutorial can be skipped or revisited later through the settings menu.\nTest the onboarding across various devices and screen sizes for consistency.\nGather user feedback after launch to refine the experience in future iterations."
     },
     {
-        "title": "Integrate chatbot assistant",
-        "description": "Integrate chatbot assistant for the web application project.",
-        "long_description": "Run extensive tests to ensure that new changes do not introduce any regressions."
+        "title": "Database Performance Optimization",
+        "description": "Optimize database queries and structure for faster load times and better resource use.",
+        "long_description": "Optimize the database by identifying slow queries using performance logs and EXPLAIN statements.\nIndex frequently queried columns and remove unused indexes to balance performance and storage.\nConsider denormalizing certain tables for faster access if complex joins are causing delays.\nSchedule regular database maintenance tasks like VACUUM and ANALYZE for PostgreSQL or OPTIMIZE TABLE for MySQL.\nDocument all changes made to the database schema for the development team's reference."
     },
     {
-        "title": "Create style guide",
-        "description": "Create style guide for the web application project.",
-        "long_description": null
+        "title": "Role-Based Access Control System",
+        "description": "Implement and manage a secure, flexible RBAC system for all users.",
+        "long_description": "Implement a role-based access control system where each user role has clearly defined permissions.\nCreate a management interface for administrators to assign and modify roles.\nEnsure sensitive actions are logged with user IDs, timestamps, and affected resources.\nDesign unit and integration tests to validate permission boundaries for each role.\nRegularly review access logs to identify potential misuse or privilege escalation attempts."
     },
     {
-        "title": "Update dependencies",
-        "description": "Update dependencies for the web application project.",
-        "long_description": "Refactor and clean existing code to improve maintainability and readability."
+        "title": "Comprehensive Style Guide Development",
+        "description": "Design and publish a thorough style guide covering UI elements, colors, and components.",
+        "long_description": "Create a comprehensive style guide covering typography, color palettes, button styles, and icon usage.\nEnsure the guide aligns with brand identity and accessibility standards.\nProvide examples for common UI patterns like modals, alerts, and forms.\nHost the style guide online where developers and designers can easily reference it.\nUpdate the style guide with new patterns as the product evolves."
     },
     {
-        "title": "Fix bug in user profile",
-        "description": "Fix bug in user profile for the web application project.",
-        "long_description": "Coordinate with the team to gather requirements and finalize the development plan."
+        "title": "CI/CD Pipeline Configuration",
+        "description": "Set up continuous integration pipelines for testing, staging, and automated deployments.",
+        "long_description": "Set up continuous integration pipelines to automatically run unit and integration tests on every commit.\nConfigure pipelines to deploy staging environments for feature branches.\nNotify developers of build status via Slack and email integrations.\nMaintain detailed build logs to help diagnose failed builds.\nRegularly review pipeline configurations to optimize build times and resource usage."
     },
     {
-        "title": "Add password reset feature",
-        "description": "Add password reset feature for the web application project.",
-        "long_description": "Ensure accessibility compliance by testing with multiple assistive technologies."
+        "title": "Analytics Dashboard Implementation",
+        "description": "Build an interactive analytics dashboard with key product engagement and performance metrics.",
+        "long_description": "Implement an analytics dashboard displaying key metrics like daily active users, churn rate, and feature engagement.\nUse charts and graphs to visualize trends over time.\nProvide filters to segment data by date ranges and user demographics.\nEnsure data is refreshed in real-time or at regular intervals.\nRestrict access to the dashboard to authorized personnel only."
     },
     {
-        "title": "Refactor middleware logic",
-        "description": "Refactor middleware logic for the web application project.",
-        "long_description": "Prepare a comprehensive report including data visualizations and actionable recommendations."
-    },
-    {
-        "title": "Add real-time notifications",
-        "description": "Add real-time notifications for the web application project.",
-        "long_description": null
-    },
-    {
-        "title": "Test multi-language support",
-        "description": "Test multi-language support for the web application project.",
-        "long_description": "Provide regular progress updates to stakeholders and gather feedback on each iteration."
-    },
-    {
-        "title": "Review UI/UX feedback",
-        "description": "Review UI/UX feedback for the web application project.",
-        "long_description": null
-    },
-    {
-        "title": "Create FAQ page",
-        "description": "Create FAQ page for the web application project.",
-        "long_description": "Document every step clearly for future developers and include examples where necessary."
-    },
-    {
-        "title": "Implement OAuth login",
-        "description": "Implement OAuth login for the web application project.",
-        "long_description": "Run extensive tests to ensure that new changes do not introduce any regressions."
-    },
-    {
-        "title": "Integrate Slack notifications",
-        "description": "Integrate Slack notifications for the web application project.",
-        "long_description": "Refactor and clean existing code to improve maintainability and readability."
-    },
-    {
-        "title": "Test accessibility with screen readers",
-        "description": "Test accessibility with screen readers for the web application project.",
-        "long_description": "Optimize the performance of the module by reducing memory and processing overhead."
-    },
-    {
-        "title": "Write e2e tests",
-        "description": "Write e2e tests for the web application project.",
-        "long_description": "Ensure accessibility compliance by testing with multiple assistive technologies."
-    },
-    {
-        "title": "Create onboarding emails",
-        "description": "Create onboarding emails for the web application project.",
-        "long_description": "Provide regular progress updates to stakeholders and gather feedback on each iteration."
-    },
-    {
-        "title": "Fix form validation errors",
-        "description": "Fix form validation errors for the web application project.",
-        "long_description": null
+        "title": "Quarterly Product Roadmap Planning",
+        "description": "Plan, prioritize, and share a detailed roadmap for upcoming product features and updates.",
+        "long_description": "Prepare a quarterly product roadmap outlining planned features, improvements, and fixes.\nInvolve stakeholders from development, marketing, and customer support teams.\nPrioritize tasks based on user feedback, business goals, and technical feasibility.\nShare the roadmap with the entire organization through an internal portal.\nReview and adjust the roadmap at the end of each quarter based on progress and new insights."
     }
 ]

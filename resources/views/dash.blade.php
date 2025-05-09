@@ -4,15 +4,8 @@
 <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Responsive Admin Dashboard</title>
     <script src="https://cdn.tailwindcss.com"></script>
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.6/dist/css/bootstrap.min.css" rel="stylesheet"
-        integrity="sha384-4Q6Gf2aSP4eDXB8Miphtr37CMZZQ5oXLH2yaXMJ2w8e2ZtHTl7GptT4jmndRuHDT" crossorigin="anonymous">
-
-    <title>All Tasks</title>
-
-    <link rel="stylesheet" href="{{ asset('style.css') }}">
     <script>
         tailwind.config = {
             darkMode: 'class'
@@ -120,7 +113,11 @@
             </header>
 
             <main class="p-6 flex-grow">
-                @yield('content')
+                <div class="bg-gray-800 p-6 rounded shadow">
+                    <h3 class="text-xl font-bold mb-4">Responsive Admin Dashboard</h3>
+                    <p>Sidebar toggles, dropdown menus behave correctly based on sidebar state, and profile menu works
+                        smoothly.</p>
+                </div>
             </main>
 
             <footer class="p-4 bg-gray-800 text-center text-sm text-gray-400 border-t border-gray-700">
@@ -179,11 +176,6 @@
             profileMenu.classList.add('hidden');
         });
     </script>
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.6/dist/js/bootstrap.bundle.min.js"
-        integrity="sha384-j1CDi7MgGQ12Z7Qab0qlWQ/Qqz24Gc6BM0thvEMVjHnfYGF0rmFCozFSxQBxwHKO" crossorigin="anonymous">
-    </script>
-    <script src="https://kit.fontawesome.com/0e26b3244d.js" crossorigin="anonymous"></script>
-    @yield('script')
 
 </body>
 

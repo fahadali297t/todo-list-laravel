@@ -21,10 +21,6 @@ a {
     text-decoration: none;
 }
 
-body {
-    background-color: #1e1e1e;
-}
-
 .primary {
     color: #4ea8de;
 }
@@ -83,9 +79,143 @@ body {
     background-color: #333333;
     border-radius: 10px;
     border: 1px solid rgba(255, 255, 255, 0.4);
-    padding: 20px 30px;
+    padding: 10px 30px;
     display: flex;
     flex-direction: row;
     align-items: center;
     justify-content: space-between;
+}
+
+/*  */
+.description {
+    background-color: #333333;
+    padding: 20px 30px;
+    border-radius: 20px;
+}
+
+.backlink {
+    display: inline-block;
+    margin-top: 20px;
+    transition: all 0.3s ease;
+}
+.backlink:hover {
+    color: #4ea8de;
+}
+
+.actions {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: #f2f2f2;
+    gap: 16px;
+}
+.actions button,
+.btn-del {
+    color: #f2f2f2;
+}
+
+.btn-complete {
+    background-color: rgb(101, 183, 65, 0.2);
+    padding: 10px 20px;
+    border-radius: 10px;
+}
+.btn-incomplete {
+    background-color: rgba(249, 56, 39, 0.2);
+    padding: 10px 20px;
+    border-radius: 10px;
+}
+.btn-active {
+    background-color: #73ec8b;
+    padding: 10px 20px;
+    border-radius: 10px;
+    color: #000000;
+}
+
+.completed {
+    background-color: #393e46;
+}
+.task.completed a {
+    text-decoration: line-through;
+    color: #000000;
+}
+.task.completed .btn-del,
+.task.completed p {
+    color: #000000;
+}
+.task.completed p {
+    color: #000000;
+}
+
+.action {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 16px;
+}
+.task.completed .round-btn {
+    background-color: #000000;
+    border: 5px solid #4ea8de;
+    padding: 8px;
+}
+
+.round-btn {
+    background-color: #333333;
+    border-radius: 50%;
+    padding: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-right: 20px;
+    border: 3px solid #4ea8de;
+    color: #f2f2f2;
+    transition: all ease 0.4s;
+}
+.round-btn.cancell {
+    background-color: rgba(0, 0, 0, 0.4);
+    border: none;
+}
+
+/* form --------------------------------------------*/
+.input-fields,
+.status {
+    width: 100%;
+    height: 50px;
+    background-color: #1e1e1e;
+    border: 2px solid #4ea8de;
+    padding: 10px 20px;
+    border-radius: 10px;
+    color: #f2f2f2;
+    margin-bottom: 20px;
+}
+.long-desc {
+    width: 100%;
+    height: 300px;
+    background-color: #1e1e1e;
+    border: 2px solid #4ea8de;
+    padding: 10px 20px;
+    border-radius: 10px;
+    color: #f2f2f2;
+    margin-bottom: 20px;
+}
+.task_add_btn {
+    background-color: #4ea8de;
+    color: #000000;
+    padding: 10px 20px;
+    border-radius: 10px;
+    border: none;
+    width: 200px;
+}
+
+.btn-disabeled {
+    border: none;
+}
+
+/* --------------------------- */
+
+.btn-search{
+    background-color: #4ea8de;
+    color: #000000;
+    padding: 10px 20px;
+    border-radius: 10px;
+    border: none;
 }
