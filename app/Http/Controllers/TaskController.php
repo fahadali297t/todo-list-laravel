@@ -40,7 +40,7 @@ class TaskController extends Controller
     function cancell()
     {
 
-        $tasks = DB::table('tasks')->where('status', 'Cancelled')->paginate(8);
+        $tasks = DB::table('tasks')->where('status', 'Cancelled')->orderBy('id', 'desc')->paginate(8);
 
         return view('activeTask', [
             'tasks' => $tasks,
@@ -50,7 +50,7 @@ class TaskController extends Controller
     function backlog()
     {
 
-        $tasks = DB::table('tasks')->where('status', 'Backlog')->paginate(8);
+        $tasks = DB::table('tasks')->where('status', 'Backlog')->orderBy('id', 'desc')->paginate(8);
 
         return view('activeTask', [
             'tasks' => $tasks,
@@ -60,7 +60,7 @@ class TaskController extends Controller
     function completed()
     {
 
-        $tasks = DB::table('tasks')->where('status', 'completed')->paginate(8);
+        $tasks = DB::table('tasks')->where('status', 'completed')->orderBy('id', 'desc')->paginate(8);
 
         return view('activeTask', [
             'tasks' => $tasks,
